@@ -26,6 +26,6 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            lgergely/rotten-potatoes:latest
-            lgergely/rotten-potatoes:${{ github.run_number }}
+            lgergely/conversao-temperatura:v1
+            lgergely/conversao-temperatura:${{ github.run_number }}
   
