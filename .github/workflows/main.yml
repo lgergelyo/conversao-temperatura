@@ -47,4 +47,4 @@ jobs:
         with:
           images: lgergely/conversao-temperatura:${{ github.run_number }}
           manifests: |
-            k8s/deployment.yaml
+            deployment.yaml
